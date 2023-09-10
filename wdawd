@@ -1,0 +1,163 @@
+<section class="menu">
+        <h3 class="meal">Menu</h3>
+        <section class="menu_row">
+            <section class="menu_col">
+                <h4>Breakfast</h4>
+                <section class="bot">
+                    <section class="break">
+                        <img src="./continental.jpeg" >
+                    </section>
+                    <section>
+                        <h5>Continental Breakfast </h5>
+                        <h6>1000.Rs</h6>
+                    </section>
+                </section>
+                <section class="bot">
+                    <section class="break">
+                        <img src="./breakfast.webp" >
+                    </section>
+                    <section>
+                        <h5>Continental Breakfast </h5>
+                        <h6>1000.Rs</h6>
+                    </section>
+                </section>
+                <section class="bot">
+                    <section class="break">
+                        <img src="./english breakfast.jpeg" >
+                    </section>
+                    <section>
+                        <h5>Continental Breakfast </h5>
+                        <h6>1000.Rs</h6>
+                    </section>
+                </section>
+                <h4>Breakfast</h4>
+                <section class="bot">
+                    <section class="break">
+                        <img src="./continental.jpeg" >
+                    </section>
+                    <section>
+                        <h5>Continental Breakfast </h5>
+                        <h6>1000.Rs</h6>
+                    </section>
+                </section>
+                <section class="bot">
+                    <section class="break">
+                        <img src="./breakfast.webp" >
+                    </section>
+                    <section>
+                        <h5>Continental Breakfast </h5>
+                        <h6>1000.Rs</h6>
+                    </section>
+                </section>
+                <section class="bot">
+                    <section class="break">
+                        <img src="./english breakfast.jpeg" >
+                    </section>
+                    <section>
+                        <h5>Continental Breakfast </h5>
+                        <h6>1000.Rs</h6>
+                    </section>
+                </section>
+                <h4>Breakfast</h4>
+                <section class="bot">
+                    <section class="break">
+                        <img src="./continental.jpeg" >
+                    </section>
+                    <section>
+                        <h5>Continental Breakfast </h5>
+                        <h6>1000.Rs</h6>
+                    </section>
+                </section>
+                <section class="bot">
+                    <section class="break">
+                        <img src="./breakfast.webp" >
+                    </section>
+                    <section>
+                        <h5>Continental Breakfast </h5>
+                        <h6>1000.Rs</h6>
+                    </section>
+                </section>
+                <section class="bot">
+                    <section class="break">
+                        <img src="./english breakfast.jpeg" >
+                    </section>
+                    <section>
+                        <h5>Continental Breakfast </h5>
+                        <h6>1000.Rs</h6>
+                    </section>
+                </section>
+            </section>
+            </section>
+            </section>
+        </section>
+    </section>        
+
+
+
+
+
+
+
+
+
+
+
+    .menu {
+        padding: 25px 0 25px 0;
+    
+    }
+    
+    .meal {
+        padding: 25px 0 25px 0;
+        text-align: center;
+        font-size: 2rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .menu_row {
+        display: flex;
+        padding: 0 100px 0 100px;
+    }
+    
+    .menu_col {
+        box-shadow: 2 2 2 #000;
+        border: 1px solid black;
+        background-color: white;
+        margin: 10px;
+        padding: 10px;
+        flex: 1;
+    }
+    
+    .menu_col h4 {
+        background-color: goldenrod;
+        color: white;
+        text-align: center;
+        padding: 5px;
+        font-family: cursive;
+        font-size: 2vw;
+    }
+    
+    .break {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        padding: 5px;
+        border: 2px solid orange;
+    }
+    
+    .break img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    
+    .bot {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 5px;
+    }
+    
+    
